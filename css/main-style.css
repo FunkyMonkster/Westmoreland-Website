@@ -1,0 +1,76 @@
+@import url("https://use.typekit.net/upa8vfn.css");
+
+@font-face {
+    font-family: 'caveatbold';
+    src: url('../fonts/caveat/caveat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/caveat/caveat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'caveatregular';
+    src: url('../fonts/caveat/caveat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/caveat/caveat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: Mr Eaves XL San OT;
+  font-size: 1em;
+}
+
+h1 {
+  font-family: caveatregular;
+  color: #ffffff;
+  font-size: 2.5em;
+}
+
+.landing-page {
+  background-color: #331E0B;
+  background-image: url('../images/landing-page.jpg');
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+/* Note to self: flexbox properties will not be inherited by the child element. You have to reinstate it as display: flex; */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.landing-page a:hover {
+  color: #DD9AE9;
+}
+
+.landing-page a:active {
+  color: #3E1249;
+}
+
+.title h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vw;
+}
+
+.title p {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-bottom: 15vw;
+}
+
+#about img {
+  
+}

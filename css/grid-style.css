@@ -4,12 +4,13 @@ body {
   padding: 0;
 }
 .container {
-  display: inline-flex;
+  display: flex;
+  flex-flow: wrap row;
 }
 
 .column {
+  display: flex;
   flex-flow: wrap row;
-  justify-content: flex-start;
   padding: 1vw;
 }
 
