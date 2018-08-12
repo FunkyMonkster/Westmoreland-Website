@@ -8,9 +8,9 @@ body {
 }
 
 .column {
-  display: inline-flex;
-  flex-wrap: wrap;
-  margin: 1vw;
+  flex-flow: wrap row;
+  justify-content: flex-start;
+  padding: 1vw;
 }
 
 .column .column-one {width: 10vw;}
@@ -34,3 +34,14 @@ body {
 .column .push-eight {margin-left: 80vw;}
 .column .push-nine {margin-left: 90vw;}
 .column .push-ten {margin-left: 100vw;}
+
+.column .append-one {margin-right: 10vw;}
+.column .append-two {margin-right: 20vw;}
+.column .append-three {margin-right: 30vw;}
+.column .append-four {margin-right: 40vw;}
+.column .append-five {margin-right: 50vw;}
+.column .append-six {margin-right: 60vw;}
+.column .append-seven {margin-right: 70vw;}
+.column .append-eight {margin-right: 80vw;}
+.column .append-nine {margin-right: 90vw;}
+.column .append-ten {margin-right: 100vw;}
