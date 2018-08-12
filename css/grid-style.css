@@ -1,0 +1,36 @@
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: inline-flex;
+}
+
+.column {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 1vw;
+}
+
+.column .column-one {width: 10vw;}
+.column .column-two {width: 20vw;}
+.column .column-three {width: 30vw;}
+.column .column-four {width: 40vw;}
+.column .column-five {width: 50vw;}
+.column .column-six {width: 60vw;}
+.column .column-seven {width: 70vw;}
+.column .column-eight {width: 80vw;}
+.column .column-nine {width: 90vw;}
+.column .column-ten {width: 100vw;}
+
+.column .push-one {margin-left: 10vw;}
+.column .push-two {margin-left: 20vw;}
+.column .push-three {margin-left: 30vw;}
+.column .push-four {margin-left: 40vw;}
+.column .push-five {margin-left: 50vw;}
+.column .push-six {margin-left: 60vw;}
+.column .push-seven {margin-left: 70vw;}
+.column .push-eight {margin-left: 80vw;}
+.column .push-nine {margin-left: 90vw;}
+.column .push-ten {margin-left: 100vw;}
