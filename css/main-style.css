@@ -47,6 +47,7 @@ h1 {
   text-decoration: none;
   color: #ffffff;
   font-size: 1.2em;
+  padding-top: 1vw;
 }
 
 .landing-page a:hover {
@@ -71,6 +72,6 @@ h1 {
   margin-bottom: 15vw;
 }
 
-#about img {
+.center {
   
 }

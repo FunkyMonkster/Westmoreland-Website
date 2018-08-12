@@ -4,40 +4,42 @@
   <head>
     <title>Freelance Web Developer</title>
     <link rel="stylesheet" href="https://use.typekit.net/upa8vfn.css">
-    <link href="css/main-style.css" type="text/css" rel="stylesheet"/>
-    <link href="css/grid-style.css" type="text/css" rel="stylesheet"/>
-
+    <!--<link href="css/grid-style.css" type="text/css" rel="stylesheet"/>-->
+    <link href="css/grid-flex-style.css" type="text/css" rel="stylesheet"/>
+    <!--<link href="css/main-style.css" type="text/css" rel="stylesheet"/>-->
   </head>
-  <body class="container">
-
-    <div class="landing-page column">
-      <!-- This is where the Navigation of the site starts -->
-      <div class="column-four push-three append-three navigation">
-          <a href="#about">About</a>
-          <a href="gallery.html">Gallery</a>
-          <a href="#skills">Skills</a>
-          <a href="contact.html">Contact</a>
+  <body>
+    <!-- This is where the Navigation of the site starts -->
+    <div class="cl-full">
+      <div class="cl-1"></div>
+      <div class="cl-1">
+        <a href="#about">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#skills">Skills</a>
+        <a href="contact.html">Contact</a>
       </div>
+        <div class="cl-1"></div>
+    </div>
 
-      <!-- This is my awkward greeting -->
-      <div class="column title">
-        <h1 class="column-ten">Hi! Thanks for stumbling by</h1>
-        <p class="column-ten">In case you're wondering, I'm a college student aspiring to be a full-stack developer</p>
-      </div>
-  </div>
+    <!-- This is my awkward greeting -->
+    <h1 class="cl-full">Hi! Thanks for stumbling by</h1>
+    <p class="cl-full">In case you're wondering, I'm a college student aspiring to be a full-stack developer</p>
 
     <!-- All about me. I feel a little narcassistic doing this -->
-    <div id="about" class="column">
-      <div class="column-four push-two append-one">
+    <div id="about" class="cl-full">
+      <div class="cl-1"></div>
+      <div class="cl-3">
         <h3>About Me</h3>
         <p>I’m a college student wandering through this thing we call life in the hopes of making any sense of it. I’ll let you know when I do. In the meantime, I’m a freelance web developer in the Kernersville, NC area. I’ve been learning the concepts of design and coding since my early days in high-school. All totaled, that’s about eight years of learning and experimenting with design and programming. After taking a break from college, I’m finally ready to finish my education and become a master full-stack developer. I specialize in design, HTML, and CSS. However, I’m looking to expand my horizons into JavaScript, PHP, Ruby on Rails, Node.js, and more. Keep an eye on this site because it will be my playground to explore each new language as I learn. When I’m not updating this site, you can find me drinking coffee, playing with my dog, or trying to figure out what it means to be an adult. Seriously though, if you know how to adult, let me know. I’m really confused right now.</p>
       </div>
-      <img src="images/me.jpg"/>
-
+      <div class="cl-1">
+      </div>
+      <img src="images/me.png" class="cl-2" width="200px" height="350px"/>
+      <div class="cl-1"></div>
     </div>
 
     <!-- Hey look it's a gallery! Click it. I dare you -->
-    <div class="button">
+    <div>
       <a href="gallery.html">Take a Look at my Work</a>
     </div>
 

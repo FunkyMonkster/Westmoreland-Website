@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: wrap row;
+  justify-content: space-around;
+}
+
+.cl-full {
+  display: inherit;
+  justify-content: center;
+  flex: 100%;
+}
+
+.cl-1 {
+  display: inherit;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.cl-2 {
+  flex: 2;
+}
+
+.cl-3 {
+  flex: 3;
+}

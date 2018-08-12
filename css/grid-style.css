@@ -1,17 +1,10 @@
-body {
-  width: 100vw;
+.container {
   margin: 0;
   padding: 0;
 }
-.container {
-  display: flex;
-  flex-flow: wrap row;
-}
 
 .column {
-  display: flex;
-  flex-flow: wrap row;
-  padding: 1vw;
+  display: inline-block;
 }
 
 .column .column-one {width: 10vw;}
