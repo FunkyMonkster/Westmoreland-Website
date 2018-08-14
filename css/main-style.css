@@ -102,6 +102,34 @@ h3 {
   background-color: #AA70B9;
 }
 
-ul {
-  list-style-image: url('.../images/checkmark.png');
+/* WTF am I doing*/
+.checklist-img {
+  display: inherit;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.checklist-img img {
+  width: 21px;
+  height: 21px;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+
+.checklist p {
+  display: inherit;
+  justify-content: flex-end;
+}
+
+.footer {
+  display: inherit;
+  justify-content: center;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer a {
+  margin-left: 12px;
+  margin-right: 12px;
 }
