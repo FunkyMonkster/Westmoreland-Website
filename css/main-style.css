@@ -20,13 +20,20 @@
 
 body {
   font-family: Mr Eaves XL San OT;
-  font-size: 1em;
+  font-size: 1.1em;
+  line-height: 1.3em;
 }
 
 h1 {
   font-family: caveatregular;
   color: #ffffff;
   font-size: 2.5em;
+}
+
+h3 {
+  font-family: caveatregular;
+  font-size: 2em;
+  color: #331E0B;
 }
 
 .landing-page {
@@ -59,19 +66,42 @@ h1 {
 }
 
 .title h1 {
-  display: flex;
-  justify-content: center;
   margin-top: 15vw;
 }
 
 .title p {
-  display: flex;
-  justify-content: center;
   color: #ffffff;
   font-size: 1.5em;
   margin-bottom: 15vw;
 }
 
-.center {
-  
+.me-img {
+  display: inherit;
+  align-items: center;
+}
+
+.button {
+  width: 25vw;
+  height: 60px;
+  margin-top: 3em;
+
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #3E1249;
+  border-radius: 4px;
+
+  text-decoration: none;
+  color: #ffffff;
+  font-family: caveatregular;
+  font-size: 1.5em;
+}
+
+.button:hover{
+  background-color: #AA70B9;
+}
+
+ul {
+  list-style-image: url('.../images/checkmark.png');
 }

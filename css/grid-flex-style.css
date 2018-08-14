@@ -12,22 +12,23 @@ body {
   justify-content: space-around;
 }
 
-.cl-full {
+.row {
   display: inherit;
-  justify-content: center;
+  flex-flow: wrap row;
   flex: 100%;
 }
 
-.cl-1 {
+.cl {
   display: inherit;
-  justify-content: space-around;
-  flex: 1;
 }
 
-.cl-2 {
-  flex: 2;
-}
+.cl-1 { flex: 1;}
+.cl-2 { flex: 2;}
+.cl-3 { flex: 3;}
+.cl-4 { flex: 4;}
+.cl-5 { flex: 5;}
 
-.cl-3 {
-  flex: 3;
+.center {
+  display: inherit;
+  justify-content: center;
 }
