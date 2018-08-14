@@ -36,13 +36,8 @@ h3 {
   color: #331E0B;
 }
 
-.landing-page {
-  background-color: #331E0B;
-  background-image: url('../images/landing-page.jpg');
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  height: auto;
-}
+
+/* General Stylings*/
 
 /* Note to self: flexbox properties will not be inherited by the child element. You have to reinstate it as display: flex; */
 .navigation {
@@ -52,32 +47,45 @@ h3 {
 
 .navigation a {
   text-decoration: none;
-  color: #ffffff;
   font-size: 1.2em;
   padding-top: 1vw;
+  color: #282828;
 }
 
-.landing-page a:hover {
+.navigation a:hover {
   color: #DD9AE9;
 }
 
-.landing-page a:active {
+.navigation a:active {
   color: #3E1249;
 }
 
-.title h1 {
-  margin-top: 15vw;
+form {
+  margin-top: 75px;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.title p {
-  color: #ffffff;
-  font-size: 1.5em;
-  margin-bottom: 15vw;
+input {
+  width: 30vw;
+  height: 30px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #E5E5E5;
+  border-width: 2px;
+  padding: 5px;
+  margin: 10px;
 }
 
-.me-img {
-  display: inherit;
-  align-items: center;
+textarea {
+  width: 30vw;
+  height: 100px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #E5E5E5;
+  border-width: 2px;
+  padding: 5px;
+  margin: 10px;
 }
 
 .button {
@@ -90,7 +98,7 @@ h3 {
   align-items: center;
 
   background-color: #3E1249;
-  border-radius: 4px;
+  border-radius: 6px;
 
   text-decoration: none;
   color: #ffffff;
@@ -98,8 +106,61 @@ h3 {
   font-size: 1.5em;
 }
 
-.button:hover{
+.button:hover {
   background-color: #AA70B9;
+}
+
+.footer {
+  display: inherit;
+  justify-content: center;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer a {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+/* Home Page Styles */
+.home-page .navigation a {
+  color: #ffffff;
+}
+
+.home-page .header {
+  background-color: #331E0B;
+  background-image: url('../images/landing-page.jpg');
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.home-page .title h1 {
+  margin-top: 15vw;
+}
+
+.home-page .title p {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-bottom: 15vw;
+}
+
+.me-img {
+  display: inherit;
+  align-items: center;
+}
+
+#skills {
+  margin-top: 50px;
+}
+
+#skills img {
+  margin-top: 50px;
+}
+
+.plans {
+  margin-top: 25px;
 }
 
 /* WTF am I doing*/
@@ -121,15 +182,48 @@ h3 {
   justify-content: flex-end;
 }
 
-.footer {
-  display: inherit;
-  justify-content: center;
+/* Contact Me Styles */
+.contact-me-page .title h1 {
+  font-family: Mr Eaves XL San OT;
+  color: #282828;
+  font-size: 2em;
+  line-height: 1.5em;
+  font-weight: normal;
 
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 75px;
 }
 
-.footer a {
-  margin-left: 12px;
-  margin-right: 12px;
+.contact-me-page .button {
+  margin-top: 30px;
+}
+
+/* Error Page Specific Styels */
+
+.page-not-found .title h1 {
+  font-family: Mr Eaves XL San OT;
+  color: #8E4C12;
+  font-weight: bolder;
+  font-size: 4em;
+
+  margin-top: 75px;
+}
+
+.page-not-found .title p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+
+.justify-right {
+  justify-content: flex-start;
+}
+
+.justify-right .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-not-found .footer {
+  margin-top: 80px;
 }
