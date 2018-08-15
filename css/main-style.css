@@ -128,6 +128,14 @@ textarea {
   color: #ffffff;
 }
 
+.home-page .navigation a:hover {
+  color: #DD9AE9;
+}
+
+.home-page .navigation a:active {
+  color: #3E1249;
+}
+
 .home-page .header {
   background-color: #331E0B;
   background-image: url('../images/landing-page.jpg');
