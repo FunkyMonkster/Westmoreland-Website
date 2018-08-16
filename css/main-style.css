@@ -124,6 +124,7 @@ textarea {
 }
 
 /* Home Page Styles */
+
 .home-page .navigation a {
   color: #ffffff;
 }
@@ -152,6 +153,13 @@ textarea {
   color: #ffffff;
   font-size: 1.5em;
   margin-bottom: 15vw;
+}
+
+.home-page {
+  background-image: url('../images/coffee-stain-home.png');
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+  background-attachment: fixed;
 }
 
 .me-img {
@@ -234,4 +242,10 @@ textarea {
 
 .page-not-found .footer {
   margin-top: 80px;
+}
+
+.page-not-found {
+  background-image: url('../images/coffee-stain-404.png');
+  background-repeat: no-repeat;
+  background-position: right center;
 }
