@@ -31,7 +31,6 @@ h1 {
 }
 
 h3 {
-  font-family: caveatregular;
   font-size: 2em;
   color: #331E0B;
 }
@@ -199,6 +198,13 @@ textarea {
 }
 
 /* Contact Me Styles */
+.contact-me-page {
+  background-image: url('../images/coffee-stain-home.png');
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  background-attachment: fixed;
+}
+
 .contact-me-page .title h1 {
   font-family: Mr Eaves XL San OT;
   color: #282828;
